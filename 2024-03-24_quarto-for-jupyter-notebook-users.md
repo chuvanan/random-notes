@@ -96,3 +96,16 @@ execute:
   C --> D[Result one]
   C --> E[Result two]
   ```
+  
+  - Callout blocks
+  ```markdown
+  :::{.callout-note}
+  Note that there are five types of callouts, including: 
+  `note`, `tip`, `warning`, `caution`, and `important`.
+  :::
+  ```
+  
+  - Blockquote
+  ```markdown
+  > Blockquote
+  ```
