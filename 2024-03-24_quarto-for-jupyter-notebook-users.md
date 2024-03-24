@@ -88,16 +88,14 @@ execute:
 
 * Markdown cells
 
-  - Diagrams
+  - Diagrams (marmaid)
 
-  ```markdown
-  ````{mermaid}
+  ```{mermaid}
   flowchart LR
   A[Hard edge] --> B(Round edge)
   B --> C{Decision}
   C --> D[Result one]
   C --> E[Result two]
-  ````
   ```
   
   - Callout blocks
