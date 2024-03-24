@@ -86,3 +86,13 @@ execute:
 ---
 ```
 
+* Markdown cells
+
+  - Diagrams
+  ```{mermaid}
+  flowchart LR
+  A[Hard edge] --> B(Round edge)
+  B --> C{Decision}
+  C --> D[Result one]
+  C --> E[Result two]
+  ```
